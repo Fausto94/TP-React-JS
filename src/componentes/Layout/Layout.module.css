@@ -1,9 +1,0 @@
-.layout {
-  height: 100vh;       /* ocupa toda la altura de la pantalla */
-  display: flex;
-  flex-direction: column;  /* layout vertical */
-}
-
-.main {
-  flex: 1;
-}
