@@ -1,0 +1,99 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 0.5px solid #b6a991;
+    border-radius: 12px;
+    overflow: hidden;
+    width: 220px;
+    background-color: #F0E8CC;
+    transition: border-color 0.2s;
+}
+
+.card img {
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    background: linear-gradient(180deg,rgba(245, 245, 245, 1) 85%, rgba(0, 0, 0, 0) 100%);
+}
+
+.card h3 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #000;
+    font-family: 'IM Fell English', Georgia, serif;
+}
+
+.card .precio {
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+    font-family: 'IM Fell English', Georgia, serif;
+}
+
+.card .stock {
+    font-size: 12px;
+    color: #888;
+}
+
+.card .body {
+    padding: 0.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 4px;
+
+}
+
+.card .boton {
+    padding: 8px 0;
+    border: 0.5px solid #C49A4A;
+    border-radius: 8px;
+    background-color: #4A2510;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 5px;
+    color:#E8C84A;
+}
+
+.card .boton:hover {
+    filter: brightness(0.9);
+    border-color: #F0D080;
+
+}
+
+.card .boton:active {
+    transform: scale(0.95);
+}
+
+.card .favorito {
+    color: #C49A2A;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+    font-size: 20px;
+    background: none;
+    border: none;
+    text-align:center
+}
+
+.contador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contador .boton{
+    height: 20px;
+    width: 40px;
+    font-size:20px;
+    font-weight: 600;
+}
+
+.contador .cantidad{
+    color: #000;
+    font-weight: 600;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+
+}

@@ -1,0 +1,14 @@
+.subtitulo{
+    font-weight: 600;
+    font-size: 25px;
+    font-family: 'Cinzel', serif;
+
+}
+.empleados{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding:2rem;
+    min-width: 500px;
+}

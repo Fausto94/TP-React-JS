@@ -1,0 +1,14 @@
+    .bienvenido {
+        font-family: 'Cinzel Decorative', serif;
+        text-align: center;
+        padding: 3rem 2rem;
+        margin:auto;
+        max-width: 600px;
+        font-size: 1.4rem;
+        color: #C4AF82;
+        line-height: 1.9;
+    }
+
+    .bienvenido h4{
+        font-size: 2rem;
+    }
