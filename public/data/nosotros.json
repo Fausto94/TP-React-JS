@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "nombre": "Runko Pérez",
+        "email": "runkoperez@gmail.com",
+        "puesto": "CEO",
+        "imagen": "/images/runko.png"
+    },
+    {
+        "id": 2,
+        "nombre": "María Gómez",
+        "email": "mariagomez@gmail.com",
+        "puesto": "CTO",
+        "imagen": "/images/witch.png"
+    },
+    {
+        "id": 3,
+        "nombre": "Lucas Fernández",
+        "email": "lucasfernandez@gmail.com",
+        "puesto": "Diseñador UX/UI",
+        "imagen": "/images/viking.png"
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "nombre": "Espada",
+        "precio": 15000,
+        "stock":7,
+        "imagen": "/images/sword.png",
+        "destacado":true,
+        "detalle": "Forjada para aventureros que buscan equilibrio entre elegancia y letalidad. Esta espada de acero templado posee una hoja resistente, perfectamente balanceada para combates rápidos y precisos. Su empuñadura recubierta en cuero garantiza un agarre firme incluso en las batallas más intensas. Ideal tanto para caballeros novatos como para veteranos de incontables campañas."
+    },
+    {
+        "id": 2,
+        "nombre": "Arco largo",
+        "precio": 50000,
+        "stock":5,
+        "imagen": "/images/bow.png",
+        "destacado":true,
+        "detalle": "Diseñado para cazadores, exploradores y arqueros de élite. Este arco largo combina flexibilidad y potencia, permitiendo disparos precisos a grandes distancias. Fabricado con madera endurecida y refuerzos metálicos, es un compañero confiable en cualquier travesía."
+    },
+    {
+        "id": 3,
+        "nombre": "Armadura de placas",
+        "precio": 85000,
+        "stock":4,
+        "imagen": "/images/armor.png",
+        "destacado":true,
+        "detalle": "Una defensa digna de los protectores más valientes del reino. Esta armadura de placas completas ofrece máxima protección frente a espadas, flechas y golpes contundentes, sin sacrificar movilidad. Sus placas de acero pulido están unidas con correas reforzadas para brindar seguridad y comodidad durante largas jornadas de combate."
+    }
+]
