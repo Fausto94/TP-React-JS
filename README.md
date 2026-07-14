@@ -41,7 +41,7 @@ Luego abrir el navegador en la dirección que aparece en la consola (generalment
 ## Versión online
 
 La aplicación está disponible en Netlify:
-**https://tu-proyecto.netlify.app**
+**https://la-taverna-de-runko.netlify.app**
 
 ## Autor
 
