@@ -1,4 +1,4 @@
-# [Nombre del Proyecto]
+# Tp React JS
 
 Este proyecto fue desarrollado como parte de un curso. Se trata de una página web realizada con React.
 
