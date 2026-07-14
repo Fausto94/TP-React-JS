@@ -6,7 +6,8 @@
         "stock":7,
         "imagen": "/images/sword.png",
         "destacado":true,
-        "detalle": "Forjada para aventureros que buscan equilibrio entre elegancia y letalidad. Esta espada de acero templado posee una hoja resistente, perfectamente balanceada para combates rápidos y precisos. Su empuñadura recubierta en cuero garantiza un agarre firme incluso en las batallas más intensas. Ideal tanto para caballeros novatos como para veteranos de incontables campañas."
+        "detalle": "Forjada para aventureros que buscan equilibrio entre elegancia y letalidad. Esta espada de acero templado posee una hoja resistente, perfectamente balanceada para combates rápidos y precisos. Su empuñadura recubierta en cuero garantiza un agarre firme incluso en las batallas más intensas. Ideal tanto para caballeros novatos como para veteranos de incontables campañas.",
+        "categoria": "Armas"
     },
     {
         "id": 2,
@@ -15,7 +16,8 @@
         "stock":5,
         "imagen": "/images/bow.png",
         "destacado":true,
-        "detalle": "Diseñado para cazadores, exploradores y arqueros de élite. Este arco largo combina flexibilidad y potencia, permitiendo disparos precisos a grandes distancias. Fabricado con madera endurecida y refuerzos metálicos, es un compañero confiable en cualquier travesía."
+        "detalle": "Diseñado para cazadores, exploradores y arqueros de élite. Este arco largo combina flexibilidad y potencia, permitiendo disparos precisos a grandes distancias. Fabricado con madera endurecida y refuerzos metálicos, es un compañero confiable en cualquier travesía.",
+        "categoria": "Armas"
     },
     {
         "id": 3,
@@ -24,6 +26,77 @@
         "stock":4,
         "imagen": "/images/armor.png",
         "destacado":true,
-        "detalle": "Una defensa digna de los protectores más valientes del reino. Esta armadura de placas completas ofrece máxima protección frente a espadas, flechas y golpes contundentes, sin sacrificar movilidad. Sus placas de acero pulido están unidas con correas reforzadas para brindar seguridad y comodidad durante largas jornadas de combate."
+        "detalle": "Una defensa digna de los protectores más valientes del reino. Esta armadura de placas completas ofrece máxima protección frente a espadas, flechas y golpes contundentes, sin sacrificar movilidad. Sus placas de acero pulido están unidas con correas reforzadas para brindar seguridad y comodidad durante largas jornadas de combate.",
+        "categoria": "Armaduras"
+    },
+    {
+    "id": 4,
+    "nombre": "Escudo de roble",
+    "precio": 22000,
+    "stock": 8,
+    "imagen": "/images/shield.png",
+    "destacado": true,
+    "detalle": "Tallado en resistente madera de roble y reforzado con un aro de acero, este escudo ofrece una excelente protección sin resultar demasiado pesado. Su diseño clásico permite bloquear ataques cuerpo a cuerpo y proyectiles con gran eficacia. Un equipo indispensable para guardianes, paladines y guerreros defensivos.",
+    "categoria": "Armas"
+    },
+    {
+        "id": 5,
+        "nombre": "Bastón arcano",
+        "precio": 38000,
+        "stock": 6,
+        "imagen": "/images/staff.png",
+        "destacado": false,
+        "detalle": "Canaliza la energía mágica con este bastón elaborado en madera ancestral e incrustado con un cristal brillante en su extremo. Su equilibrio y acabado artesanal facilitan el lanzamiento de hechizos, convirtiéndolo en la elección perfecta para magos, hechiceros y druidas.",
+        "categoria": "Armas"
+    },
+    {
+        "id": 6,
+        "nombre": "Daga de acero",
+        "precio": 9500,
+        "stock": 12,
+        "imagen": "/images/dagger.png",
+        "destacado": false,
+        "detalle": "Ligera, afilada y fácil de ocultar, esta daga de acero es ideal para exploradores, pícaros y aventureros que prefieren la velocidad antes que la fuerza bruta. Su hoja de doble filo ofrece cortes precisos, mientras que su empuñadura ergonómica garantiza un control excepcional.",
+        "categoria": "Armas"
+    },
+    {
+        "id": 7,
+        "nombre": "Casco de caballero",
+        "precio": 18000,
+        "stock": 7,
+        "imagen": "/images/helmet.png",
+        "destacado": false,
+        "detalle": "Fabricado en acero pulido con visor abatible, este casco protege la cabeza y el rostro de golpes devastadores sin limitar demasiado la visión. Diseñado para resistir el rigor del campo de batalla, es una pieza esencial para cualquier combatiente que valore su supervivencia.",
+        "categoria": "Armaduras"
+    },
+    {
+        "id": 8,
+        "nombre": "Poción de curación",
+        "precio": 5000,
+        "stock": 20,
+        "imagen": "/images/potion.png",
+        "destacado": false,
+        "detalle": "Preparada por alquimistas expertos siguiendo antiguas recetas, esta poción restaura la vitalidad de quien la bebe en momentos críticos. Su característico líquido rojo y su práctico frasco de vidrio la convierten en un recurso imprescindible para cualquier grupo de aventureros.",
+        "categoria": "Pociones"
+    },
+    {
+        "id": 9,
+        "nombre": "Hacha de batalla",
+        "precio": 32000,
+        "stock": 5,
+        "imagen": "/images/axe.png",
+        "destacado": false,
+        "detalle": "Forjada con una pesada hoja de acero y un resistente mango de fresno, esta hacha de batalla está diseñada para atravesar armaduras y escudos con golpes devastadores. Su excelente equilibrio permite combinar fuerza y control, siendo el arma favorita de bárbaros, enanos y guerreros de primera línea.",
+        "categoria": "Armas"
+    },
+    {
+        "id": 10,
+        "nombre": "Capa del explorador",
+        "precio": 12000,
+        "stock": 10,
+        "imagen": "/images/cloak.png",
+        "destacado": false,
+        "detalle": "Confeccionada con tela resistente a la lluvia y al viento, esta capa ofrece comodidad y protección durante largas travesías por bosques, montañas y caminos olvidados. Su amplia capucha ayuda a pasar desapercibido, convirtiéndola en una prenda ideal para exploradores, guardabosques y viajeros.",
+        "categoria": "Armaduras"
     }
 ]
