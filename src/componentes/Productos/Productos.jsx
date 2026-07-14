@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import ItemList from '../ItemList/Itemlist';
+import ItemList from '../ItemList/ItemList';
 import styles from './Productos.module.css'
 
 function Productos({ Mensaje, Destacados }) {

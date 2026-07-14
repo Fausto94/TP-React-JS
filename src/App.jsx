@@ -4,7 +4,6 @@ import Saludar from './Saludar.jsx';
 import CuerpoPosteo from './CuerpoPosteo.jsx';
 import { Layout } from './componentes/Layout/Layout.jsx';
 import Asistente from './Asistente';
-import ItemListContainer from './componentes/ItemListContainer/ItemListContainer.jsx';
 import { Contador } from './componentes/Contador/Contador.jsx';
 import Productos from './componentes/Productos/Productos.jsx';
 import { Routes, Route } from 'react-router-dom';

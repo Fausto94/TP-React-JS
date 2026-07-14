@@ -1,4 +1,4 @@
-// En /components/ItemList/ItemList.jsx
+// En /componentes/ItemList/ItemList.jsx
 import { Item } from "../Item/Item.jsx";
 
 export function ItemList({ productos }) {
