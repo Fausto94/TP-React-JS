@@ -1,33 +1,36 @@
 import React, { useState, useEffect } from 'react';
 import NosotrosList from '../NosotrosList/NosotrosList';
 import styles from './NosotrosListContainer.module.css'
+import { collection, getDocs } from 'firebase/firestore';
+import { db } from '../../firebase/config';
 
 function NosotrosListContainer({ Mensaje }) {
+
     const [empleado, setEmpleado] = useState([]);
     const [error, setError] = useState(null);
     const [cargando, setCargando] = useState(true);
 
     useEffect(() => {
-        fetch('/data/nosotros.json')
-            .then((respuesta) => {
-                if (!respuesta.ok) {
-                    throw new Error('No se pudo cargar la información de los empleado');
-                }
-                return respuesta.json();
-            })
-            .then((datos) => {
-                setEmpleado(datos);
-                console.log("empleado obtenidos de la api");
-            })
-            .catch((error) => {
-                setError(error.message);
-                console.log("hubo un error en la carga de datos")
-            })
-            .finally(() => {
-                setCargando(false);
-            });
-    }, []);
+        const cargarEmpleado = async () => {
+            try {
+                const empleadosDB = collection(db, 'equipo');
+                const resp = await getDocs(empleadosDB);
 
+                setEmpleado(
+                    resp.docs.map((doc) => ({
+                        ...doc.data(),
+                        id: doc.id,
+                    }))
+                );
+            } catch (err) {
+                console.error(err);
+                setError('No se pudieron cargar los Empleados desde Firestore.');
+            } finally {
+                setCargando(false);
+            }
+        };
+        cargarEmpleado();
+    }, []);
     if (cargando) {
         return <p>Cargando empleado, por favor espere...</p>;
     }

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import ItemList from '../ItemList/Itemlist';
 import styles from './Productos.module.css'
 
-function Productos({ Mensaje }) {
+function Productos({ Mensaje, Destacados }) {
     const [productos, setProductos] = useState([]);
     const [error, setError] = useState(null);
     const [cargando, setCargando] = useState(true);
@@ -34,11 +34,13 @@ function Productos({ Mensaje }) {
         return <p>Error: {error}</p>;
     }
 
+    const productosAMostrar = Destacados ? productos.filter(producto => producto.destacado) : productos;
+
     return (
         <div>
-            <h2 className={styles.subtitulo}>{Mensaje}</h2>
+            <h3 className={styles.subtitulo}>{Mensaje}</h3>
             <div className={styles.productos}>
-                <ItemList productos={productos} />
+                <ItemList productos={productosAMostrar} />
             </div>
         </div>
     );

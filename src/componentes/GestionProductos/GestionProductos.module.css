@@ -1,0 +1,115 @@
+/* ── GESTIÓN DE PRODUCTOS ── */
+
+.page {
+    font-family: 'IM Fell English', Georgia, serif;
+    min-height: 100vh;
+    padding: 32px 24px;
+    margin: 0 auto;
+}
+
+.page h2 {
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #F5E090;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.page hr {
+    border: none;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, #C49A2A, transparent);
+    margin: 24px 0;
+}
+
+/* Lista */
+.lista h3 {
+    font-family: 'Cinzel', serif;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: #C49A2A;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+}
+
+.listaProductos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 12px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.listaProductos li {
+    background: #F0E8CC;
+    border: 1px solid #8B5A2B;
+    border-radius: 2px;
+    padding: 14px 18px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    color: #3D2510;
+    gap: 16px;
+}
+
+/* Empuja los botones a la derecha */
+.botonesGestion {
+    display: flex;
+    gap: 8px;
+    margin-left: auto;
+}
+
+.botonesGestion button {
+    font-family: 'Cinzel', serif;
+    font-size: 11px;
+    letter-spacing: 1px;
+    background: transparent;
+    border: 1px solid #6B3A1A;
+    padding: 6px 14px;
+    border-radius: 2px;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: all 0.2s;
+    flex-shrink: 0;
+    font-weight: bold;
+}
+
+.botonesGestion .botonEliminar {
+    color: #ff0000;
+}
+
+.botonesGestion .botonEliminar:hover {
+    border-color: #8B1A1A;
+    color: #FFFFFF;
+    background: #ff0000;
+}
+
+.botonesGestion .botonEditar {
+    color: #00473c;
+}
+
+.botonesGestion .botonEditar:hover {
+    border-color: #013830;
+    color: #000000;
+    background: #08ecca;
+}
+.lista {
+    width: 100%;
+    margin: 20px auto;
+}
+
+
+
+.listaProductos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 12px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}

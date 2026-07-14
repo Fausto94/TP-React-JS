@@ -1,16 +1,134 @@
-.formulario  {
+
+.formContainer{
+        font-family: 'IM Fell English', Georgia, serif;
+    background: #2A1506;
+    border: 1px solid #8B5A2B;
+    padding: 32px 24px;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.formulario {
     display: flex;
-    flex-Direction: column;
-    max-Width: 24rem;
-    margin: 3rem auto;
-    padding: 1.5rem;
-    border: 1px solid #ddd;
-    border-Radius: 8px;
+    flex-direction: column;
     gap: 16px;
 }
 
-.formulario label{
-    color:#ddd;
-    margin-right: 6px;
+.formulario h3 {
+    font-family: 'Cinzel', serif;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: #C49A2A;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+}
 
+.formulario div {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.formulario label {
+    font-family: 'Cinzel', serif;
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: #8B5A2B;
+    text-transform: uppercase;
+}
+
+.formulario input[type="text"],
+.formulario input[type="number"],
+.formulario textarea {
+    font-family: 'IM Fell English', Georgia, serif;
+    font-size: 13px;
+    background: #F0E8CC;
+    border: 1px solid #8B5A2B;
+    border-radius: 2px;
+    padding: 10px 14px;
+    color: #1A0E06;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.formulario input[type="text"]:focus,
+.formulario input[type="number"]:focus,
+.formulario textarea:focus {
+    border-color: #C49A2A;
+}
+
+.formulario input::placeholder,
+.formulario textarea::placeholder {
+    color: #8B5A2B;
+    font-style: italic;
+}
+
+.formulario textarea {
+    resize: vertical;
+    min-height: 90px;
+}
+
+/* Checkbox de destacado */
+.formulario input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    accent-color: #C49A2A;
+    margin-left: 10px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+/* Input de archivo */
+.formulario input[type="file"] {
+    font-family: 'Cinzel', serif;
+    font-size: 11px;
+    color: #DDD0A8;
+    background: transparent;
+    border: 1px dashed #6B3A1A;
+    border-radius: 2px;
+    padding: 10px 14px;
+    cursor: pointer;
+    transition: border-color 0.2s;
+}
+
+.formulario input[type="file"]:hover {
+    border-color: #C49A2A;
+}
+
+/* Preview de imagen */
+.preview {
+    width: 100%;
+    max-height: 180px;
+    object-fit: contain;
+    border: 1px solid #8B5A2B;
+    border-radius: 2px;
+    background: #1A0E06;
+    margin-top: 8px;
+    padding: 8px;
+}
+
+/* Botón submit */
+.formulario button[type="submit"] {
+    font-family: 'Cinzel', serif;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #1A0E06;
+    background: linear-gradient(180deg, #E8C84A 0%, #C49A2A 100%);
+    border: none;
+    padding: 13px 20px;
+    border-radius: 2px;
+    text-transform: uppercase;
+    transition: opacity 0.2s;
+    clip-path: polygon(8px 0%, 100% 0%, calc(100% - 8px) 100%, 0% 100%);
+}
+
+.formulario button[type="submit"]:hover:not(:disabled) {
+    opacity: 0.85;
+}
+
+.formulario button[type="submit"]:disabled {
+    opacity: 0.5;
+    filter: grayscale(40%);
 }
