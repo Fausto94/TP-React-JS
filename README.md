@@ -15,13 +15,13 @@ Este proyecto fue desarrollado como parte de un curso. Se trata de una página w
 1. Clonar el repositorio:
 
 ```bash
-git clone https://github.com/tu-usuario/tu-repositorio.git
+git clone https://github.com/Fausto94/TP-React-JS.git
 ```
 
 2. Entrar a la carpeta del proyecto:
 
 ```bash
-cd tu-repositorio
+cd TP-REACT-JS
 ```
 
 3. Instalar las dependencias:
